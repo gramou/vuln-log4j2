@@ -19,4 +19,4 @@ sudo docker run -it -p 127.0.0.1:8080:8080 vulnlog4j2
 
 Open the url http://127.0.0.1:8080
 
-[Vuln Web Server Page](doc/vuln-web-server-page.png)
+![Vuln Web Server Page](doc/vuln-web-server-page.png)
