@@ -1,0 +1,28 @@
+<html>
+<head>
+<link href="/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="/jquery-3.6.0.js"></script>
+</head>
+<body>
+	<div class="row p-5">
+		<div class="col-12 pb-3">
+			<span>Enter a text, that should be logged by vuln log4j2 server:</span>
+		</div>
+		<div class="col-12">
+			<form action="/" method="post">
+				<input th:value="${log4j2VulnParam}" name="log4j2VulnParam" type="text" style="width: 400px;" />
+				<button type="submit" class="btn btn-danger">Write to log</button>
+			</form>
+		</div>
+		<div class="col-12">
+			<div th:value="${stacktraceParam}"></div>
+		</div>
+	</div>
+	<footer>
+		<script type="text/javascript">
+			
+		</script>
+	</footer>
+</body>
+</html>
