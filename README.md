@@ -1,4 +1,6 @@
-# how to use
+# Vulnerable Spring Boot 2 Java Web Application  - CVE-2021-44228 - Log4Shell
+
+## This Spring Boot Application contains a vulnerable log4j (Version 2.14.1) log, that is exploitable with the CVE-2021-44228.
 
 ```
 git clone https://github.com/gramou/vuln-log4j2.git
